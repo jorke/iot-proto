@@ -1,0 +1,20 @@
+from distutils.core import setup
+setup(name='pb2',
+      version='1.0.0',
+      py_modules=[
+        'Alarms_pb2', 
+        'ApplicationManagement_pb2',
+        'AuthManagement_pb2',
+        'Calculations_pb2',
+        'Commands_pb2',
+        'Events_pb2',
+        'FEP_pb2',
+        'MeasurementMapping_pb2',
+        'Measurements_pb2',
+        'Model_pb2',
+        'Processing_pb2',
+        'ProcessStatus_pb2',
+        'SimulatorMapping_pb2',
+        'Utils_pb2'
+        ],
+      )
